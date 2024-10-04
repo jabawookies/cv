@@ -6,14 +6,14 @@ import Link from 'next/link';
 type Props = {}
 
 export default function hero({ }: Props) {
-    const [text, count] = useTypewriter({
+    const [text] = useTypewriter({
 
         words: ["Hi, My name is Sergiu", "<I am a creative person/>", "I love to design."],
         loop: true,
         delaySpeed: 2000,
     });
     return (
-        <div className='h-screen flex flex-col space-y-8 items-center
+        <div className='min-h-screen max-h-fit flex flex-col space-y-8 items-center
          justify-center text-center overflow-hidden'>
             <BackgroundCircles />
             <img
@@ -25,7 +25,7 @@ export default function hero({ }: Props) {
 
                 UX/UI Designer</h2>
 
-            <h1 className='text-5xl lg:6xl font-semibold px10'>
+            <h1 className='text-5xl lg:6xl sm:3xl font-semibold px10'>
                 <span className='nr-3'>{text}</span>
                 <Cursor cursorColor='#ff7ab7'></Cursor>
                 </h1>

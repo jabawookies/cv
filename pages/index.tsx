@@ -25,7 +25,7 @@ const geistMono = localFont({
 
 export default function Home() {
   return (
-    <div className="scroll-smooth bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll
+    <div className="scroll-smooth bg-[rgb(36,36,36)] text-white min-h-full overflow-y-scroll
     z-0 overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab8a]">
       <Head>
         <title>Petre Sergiu Adrian</title>
@@ -34,28 +34,28 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Hero */}
-      <section id="hero" className="snap-start">
+      <section id="hero" className="">
         <Hero />
       </section>
       {/* About */}
-      <section id='About' className="snap-center">
+      <section id='About' className="">
         <About />
       </section>
       {/* Experience */}
-      <section id='Experience' className="snap-center">
+      <section id='Experience' className="">
         <WorkExperience />
       </section>
       {/* Skills */}
-      <section id='Skills' className="snap-start" >
+      <section id='Skills' className="" >
         <Skills />
       </section>
       {/* Projects */}
-      <section id="Projects" className="snap-start">
+      <section id="Projects" className="">
         <Projects />
       </section>
 
       {/* Contact */}
-      <section id="Contact" className="snap-start">
+      <section id="Contact" className="">
         <Contact />
       </section>
       <Link href='#hero'>

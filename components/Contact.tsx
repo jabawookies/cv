@@ -72,6 +72,7 @@ export default function contact({}: Props) {
 import React from 'react';
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 import { useForm, SubmitHandler } from 'react-hook-form';  // Ensure this is imported
+import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 
 type Inputs = {
   name: string;
@@ -83,6 +84,12 @@ type Inputs = {
 type Props = {};
 
 export default function Contact({}: Props) {
+  const [text] = useTypewriter({
+
+    words: ["I have got just what you need.", "Let's talk"],
+    loop: true,
+    delaySpeed: 4000,
+});
   const { register, handleSubmit, formState: { errors } } = useForm<Inputs>();  // Correct usage of useForm
 
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
@@ -94,23 +101,23 @@ export default function Contact({}: Props) {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Contact</h3>
 
       <div className='flex flex-col space-y-10'>
-        <h4 className='text-4xl font-semibold text-center'>
-          I have got just what you need.{' '}
-          <span className='decoration-[#f7ab8a]/50 underline'>Let's talk</span>
-        </h4>
+      <h4 className='text-center text-5xl lg:6xl font-semibold px10'>
+                <span className='nr-3'>{text}</span>
+                <Cursor cursorColor='#ff7ab7'></Cursor>
+                </h4>
 
-        <div className='flex items-center space-x-5 justify-center'>
-          <div className='flex items-center space-x-5 justify-center'>
+        <div className='flex flex-col  items-center space-x-5 justify-center'>
+          <div className='flex items-center p-3 space-x-5 justify-center'>
             <PhoneIcon className='text-[#f7ab8a] h-7 w-7 animate-pulse' />
             <p className='text-2xl'>+40735230187</p>
           </div>
 
-          <div className='flex items-center space-x-5 justify-center'>
+          <div className='flex items-center p-3 space-x-5 justify-center'>
             <EnvelopeIcon className='text-[#f7ab8a] h-7 w-7 animate-pulse' />
             <p className='text-2xl'>sergiu.petre@yahoo.com</p>
           </div>
 
-          <div className='flex items-center space-x-5 justify-center'>
+          <div className='flex items-center p-3 space-x-5 justify-center'>
             <MapPinIcon className='text-[#f7ab8a] h-7 w-7 animate-pulse' />
             <p className='text-2xl'>Ploiesti, Prahova</p>
           </div>
