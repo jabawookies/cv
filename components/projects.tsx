@@ -13,10 +13,10 @@ export default function projects({ }: Props) {
             className='scroll-smooth min-h-screen flex relative overflow-hidden flex-col text-lft md:flex-row px-10
     justify-items-center mx-auto items-center'>
             <div className='relative'>
-            <h3 className='text-start px-10 py-10 uppercase tracking-[20px] text-gray-500 text-2xl'>
-                Projects</h3>
+                <h3 className='text-start px-10 py-10 uppercase tracking-[20px] text-gray-500 text-2xl'>
+                    Projects</h3>
 
-                </div>
+            </div>
             <div className=' scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab8a] relative w-full flex overflow-x-scroll overflow-y-hidden snap-x
 snap-mandatory z-20'>
 
@@ -41,9 +41,9 @@ snap-mandatory z-20'>
                                 <br></br><br></br>
                                 UI Design: I created the platform's user interface using Figma, focusing on a clean, intuitive design. I crafted custom visuals in Photoshop and Illustrator, including logos and icons, to maintain brand consistency. The result was a streamlined, visually appealing platform that enhanced user experience and facilitated efficient, enjoyable shopping.
                                 <a href='https://www.figma.com/proto/p4FXkI0BxZD7mwOXDEc1zT/behance?page-id=0%3A1&node-id=14-7850&node-type=frame&viewport=-1766%2C3861%2C0.17&t=5qHzJzgwMhRlnc9W-1&scaling=min-zoom&content-scaling=fixed'
-className=' text-bold underline decoration-[#f7ab8a]'
->Click here to view project</a>
-                                </p>
+                                    className=' text-bold underline decoration-[#f7ab8a]'
+                                >Click here to view project</a>
+                            </p>
                         </div>
 
                     </div>
@@ -72,10 +72,10 @@ className=' text-bold underline decoration-[#f7ab8a]'
                                 <br></br><br></br>
                                 The UI kit elements, grid system, and typography were all tailored to reflect the bakery’s identity, with a focus on easy navigation and a warm, inviting color scheme that resonates with the bakery’s target audience. The final design optimized the desktop experience while ensuring a seamless, user-friendly interface.<br></br><br></br>
 
-                                Creating user personas to understand customer needs. The personas helped identify key motivations, such as the desire for a simplified online ordering experience and easy access to the bakery’s product information. This research guided the design choices, particularly the focus on a clean interface and user flow, making it easier for customers to find and purchase products. 
-<a href='https://www.figma.com/proto/S9IoGDlIxh9wsRNdaD5Pqm/persoana.inspirata%2Fwireframefrontera?page-id=0%3A1&node-id=104-6&node-type=frame&viewport=-693%2C426%2C0.09&t=Y7st9dC1gyl5FgzR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=104%3A6'
-className=' text-bold underline decoration-[#f7ab8a]'
->Click here to view project</a>
+                                Creating user personas to understand customer needs. The personas helped identify key motivations, such as the desire for a simplified online ordering experience and easy access to the bakery’s product information. This research guided the design choices, particularly the focus on a clean interface and user flow, making it easier for customers to find and purchase products.
+                                <a href='https://www.figma.com/proto/S9IoGDlIxh9wsRNdaD5Pqm/persoana.inspirata%2Fwireframefrontera?page-id=0%3A1&node-id=104-6&node-type=frame&viewport=-693%2C426%2C0.09&t=Y7st9dC1gyl5FgzR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=104%3A6'
+                                    className=' text-bold underline decoration-[#f7ab8a]'
+                                >Click here to view project</a>
                             </p>
 
                         </div>
