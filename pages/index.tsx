@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import localFont from "next/font/local";
-import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 import Header from "@/components/header";
 import Hero from "@/components/Hero";
 import About from "@/components/about";
@@ -9,68 +7,67 @@ import WorkExperience from "@/components/WorkExperience";
 import Skills from "@/components/skills";
 import Projects from "@/components/projects";
 import Contact from "@/components/Contact";
-import Link from "next/link";
-
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export default function Home() {
   return (
-    <div className="scroll-smooth bg-[rgb(36,36,36)] text-white min-h-full overflow-y-scroll
-    z-0 overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab8a]">
+    <div className="bg-[rgb(36,36,36)] text-white min-h-screen overflow-x-hidden">
       <Head>
         <title>Petre Sergiu Adrian</title>
       </Head>
 
       {/* Header */}
       <Header />
-      {/* Hero */}
-      <section id="hero" className="">
+
+      {/* Hero Section */}
+      <section id="hero">
         <Hero />
       </section>
-      {/* About */}
-      <section id='About' className="">
+
+      {/* About Section */}
+      <section id="About">
         <About />
       </section>
-      {/* Experience */}
-      <section id='Experience' className="">
+
+      {/* Experience Section */}
+      <section id="Experience">
         <WorkExperience />
       </section>
-      {/* Skills */}
-      <section id='Skills' className="" >
+
+      {/* Skills Section */}
+      <section id="Skills">
         <Skills />
       </section>
-      {/* Projects */}
-      <section id="Projects" className="">
+
+      {/* Projects Section */}
+      <section id="Projects">
         <Projects />
       </section>
 
-      {/* Contact */}
-      <section id="Contact" className="">
+      {/* Contact Section */}
+      <section id="Contact">
         <Contact />
       </section>
-      <Link href='#hero'>
+
+      <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8
-  filter grayscale hover:grayscale-0">
-              <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-8 h-8 filter grayscale hover:grayscale-0"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4.5 15.75L12 8.25l7.5 7.5"
+              />
             </svg>
-
           </div>
         </footer>
-
       </Link>
-
     </div>
   );
 }
