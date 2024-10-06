@@ -12,12 +12,12 @@ export default function About({}: Props) {
       className='scroll-smooth flex flex-col relative min-h-screen text-center md:text-left max-w-7xl px-5 md:px-10 justify-evenly mx-auto items-center'
     >
       {/* Title with increased spacing */}
-      <h3 className='absolute top-10 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl'>
+      <h3 className='absolute top-0 md:top-4 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl'>
         About
       </h3>
 
       {/* Content wrapper with increased margin-top */}
-      <div className='flex flex-col md:flex-row items-center mt-32 md:mt-40'>
+      <div className='flex flex-col md:flex-row items-center mt-2 md:mt-10'>
         {/* Image with responsive size and margin adjustment */}
         <motion.img
           initial={{ opacity: 0, x: -200 }}

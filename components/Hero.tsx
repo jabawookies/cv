@@ -13,7 +13,7 @@ export default function Hero({}: Props) {
     });
 
     return (
-        <div className='relative min-h-screen flex flex-col  items-center pb-20 justify-center text-center'>
+        <div className='relative min-h-screen flex flex-col  items-center pb-20 justify-center text-center overflow-hidden'>
             {/* Background Circles */}
             <BackgroundCircles />  {/* Ensure BackgroundCircles stay behind other elements */}
             
