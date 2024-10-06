@@ -29,26 +29,26 @@ export default function Home() {
       </section>
 
       {/* Experience Section */}
-      <section id="Experience">
+      <section id="Experience" className="overflow-hidden">
         <WorkExperience />
       </section>
 
       {/* Skills Section */}
-      <section id="Skills">
+      <section id="Skills" className="overflow-hidden">
         <Skills />
       </section>
 
       {/* Projects Section */}
-      <section id="Projects">
+      <section id="Projects" className="overflow-hidden">
         <Projects />
       </section>
 
       {/* Contact Section */}
-      <section id="Contact">
+      <section id="Contact" className="overflow-hidden">
         <Contact />
       </section>
 
-      <Link href="#hero">
+      <Link href="#hero" className="overflow-hidden">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <svg
