@@ -15,9 +15,10 @@ export default function Header({}: Props) {
                     transition={{ duration: 1.2 }}
                     className="flex flex-row items-center"
                 >
+                    <SocialIcon url="https://www.behance.net/isergiuadrian" fgColor="gray" bgColor="transparent"  />
                     <SocialIcon url="https://www.linkedin.com/in/petre-sergiu-adrian/" fgColor="gray" bgColor="transparent" />
                     <SocialIcon url="https://www.facebook.com/petre.sergiu.334/" fgColor="gray" bgColor="transparent" />
-                    <SocialIcon url="https://www.instagram.com/sonee.inspace/" fgColor="gray" bgColor="transparent" />
+                   {/* <SocialIcon url="https://www.instagram.com/sonee.inspace/" fgColor="gray" bgColor="transparent"  />*/}
                 </motion.div>
 
                 {/* Contact Info on the right */}

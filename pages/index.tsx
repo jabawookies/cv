@@ -10,7 +10,7 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white min-h-screen overflow-x-hidden">
+    <div className="bg-[rgb(36,36,36)] text-white min-h-screen">
       <Head>
         <title>Petre Sergiu Adrian</title>
       </Head>
