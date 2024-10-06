@@ -6,7 +6,7 @@ type Props = {}
 
 export default function Header({}: Props) {
     return (
-        <header className="sticky top-0 z-50 bg-[rgb(36,36,36)] p-5 w-full">
+        <header className="sticky top-0 z-50 bg-transparent p-5 w-full">
             <div className="flex items-start justify-between max-w-7xl mx-auto">
                 {/* Social Icons on the left */}
                 <motion.div

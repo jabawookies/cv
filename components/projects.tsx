@@ -35,7 +35,7 @@ export default function Projects({ }: Props) {
                             </h4>
                             <p className='text-sm md:text-lg'>
                                 Made both the UX research and UI design of the Animalescu online pet shop platform.
-                                <a href='https://www.figma.com/proto/p4FXkI0BxZD7mwOXDEc1zT/behance?page-id=0%3A1&node-id=14-7850&node-type=frame'
+                                <a href='https://www.behance.net/gallery/209586191/Animalescu-online-pet-shop-UXUI'
                                     className='text-bold underline decoration-[#f7ab8a]'>
                                     Click here to view project
                                 </a>
@@ -58,11 +58,11 @@ export default function Projects({ }: Props) {
                         />
                         <div className='space-y-5 px-5 md:px-10 max-w-6xl text-center md:text-left'>
                             <h4 className='text-2xl md:text-4xl font-semibold'>
-                                <span className='underline decoration-[#f7ab8a]'>Case Study {index + 2} of 2:</span> Redesign for Brutaria Frontera
+                                <span className='underline decoration-[#f7ab8a]'>Case Study {index + 2} of 2:</span> Redesign for bakery website
                             </h4>
                             <p className='text-sm md:text-lg'>
-                                Made both the UX research and UI redesign of the Brutaria Frontera website.
-                                <a href='https://www.figma.com/proto/S9IoGDlIxh9wsRNdaD5Pqm/persoana.inspirata%2Fwireframefrontera?page-id=0%3A1&node-id=104-6'
+                                Made both the UX research and UI redesign of a theoretical redesign for a bakery website.
+                                <a href='https://www.behance.net/gallery/208595691/Frontera-theoretical-redesign'
                                     className='text-bold underline decoration-[#f7ab8a]'>
                                     Click here to view project
                                 </a>

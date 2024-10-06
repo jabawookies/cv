@@ -13,7 +13,7 @@ export default function Hero({}: Props) {
     });
 
     return (
-        <div className='relative min-h-screen flex flex-col space-y-8 items-center justify-center text-center pt-0'>
+        <div className='relative min-h-screen flex flex-col  items-center pb-20 justify-center text-center'>
             {/* Background Circles */}
             <BackgroundCircles />  {/* Ensure BackgroundCircles stay behind other elements */}
             
@@ -30,7 +30,7 @@ export default function Hero({}: Props) {
                     UX/UI Designer
                 </h2>
 
-                <h1 className='text-5xl lg:text-6xl sm:text-3xl font-semibold px-10'>
+                <h1 className='text-3xl lg:text-6xl sm:text-2xl font-semibold px-10'>
                     <span className='nr-3'>{text}</span>
                     <Cursor cursorColor='#ff7ab7' />
                 </h1>
