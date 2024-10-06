@@ -24,9 +24,9 @@ export default function About({}: Props) {
           transition={{ duration: 1.2 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
-          src="https://i.postimg.cc/cCsP0sZL/DSCF7242-Enhanced-NR.jpg"
+          src="https://media.licdn.com/dms/image/v2/C4E03AQE8EBA5lLkMbA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1652887904910?e=1733961600&v=beta&t=2llsmB4HNgRkjO5UlrtD-W-MIOCKU2nhjRAntRHCpUM"
           alt="Profile"
-          className='mb-10 md:mb-0 flex-shrink-0 w-40 h-40 md:w-64 md:h-96 rounded-full md:rounded-lg xl:w-[500px] xl:h-[600px]'
+          className='object-cover mb-10 md:mb-0 flex-shrink-0 w-40 h-40 md:w-64 md:h-96 rounded-full md:rounded-lg xl:w-[500px] xl:h-[600px]'
         />
 
         {/* Text content */}
